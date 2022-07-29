@@ -4,7 +4,7 @@ import TypewriterComponent from "typewriter-effect";
 import { faAddressBook, faUserGraduate, faFutbol, faHouse, faUser, faWrench, faPaperPlane, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faLinkedin, faTwitter, faWhatsapp, faHtml5, faCss3, faJs, faGit, faGithub, faBootstrap, faReact, faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import Script from 'next/Script'
+import Script from 'next/script'
 
 const brandIcons = [{ media: "Twitter", icon: faTwitter, color: "blue", link: "https://twitter.com/MandlaN07?t=uiYNNolOcp-OYzDs3ZN1Q&s=09" }, { media: "LinkedIn", icon: faLinkedin, color: "blue", link: "https://www.linkedin.com/in/mandlenkosi-m-b08357218/" }, { media: "Facebook", icon: faFacebook, color: "blue", link: "https://www.facebook.com/profile.php?id=100062043014647" }, { media: "Email", icon: faPaperPlane, color: "white", link: "mailto: georgemarwanqana@gmail.com" }];
 const techStackIcons = [{ icon: faHtml5, color: "red" }, { icon: faCss3, color: "blue" }, { icon: faJs, color: "yellow" }, { icon: faGit, color: "red" }, { icon: faGithub, color: "white" }, { icon: faBootstrap, color: "purple" }, { icon: faReact, color: "blue" }, { icon: faNodeJs, color: "green" }, { icon: faDatabase, color: "white" }];
