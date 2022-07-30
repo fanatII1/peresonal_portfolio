@@ -8,7 +8,7 @@
     "dev": "next",
     "bulid": "next build",
     "start": "next start",
-    "new build": "next build"
+    "now-build": "next build"
   },
   "keywords": [],
   "author": "",
