@@ -106,7 +106,7 @@ const Mainsection = () => {
                                 <p>E-Commerce website:</p>
                                 <button><Link href="https://github.com/fanatII1/Online-Store"><a>View Code(Github):</a></Link></button>
                                 <br />
-                                <button><Link href="https://react-memmory-game.herokuapp.com/"><a>View Project</a></Link></button>
+                                <button><Link href="https://github.com/fanatII1/Online-Store"><a>View Project</a></Link></button>
                             </div>
                         </div>
                     </div>
