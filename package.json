@@ -1,7 +1,6 @@
 {
   "name": "my-dev-portfolio",
    "version": 2,
-   "builds": [{"src":"package.json", "use": "@now/next"}],
   "description": "",
   "main": "index.js",
   "scripts": {
