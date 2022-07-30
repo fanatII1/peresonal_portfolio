@@ -1,6 +1,7 @@
 {
   "name": "my-dev-portfolio",
-  "version": "1.0.0",
+   "version": 2,
+   "builds": [{"src":"package.json", "use": "@now/next"}],
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,7 +24,4 @@
     "typewriter-effect": "^2.19.0"
   }
 }
-{
-    "version": 2,
-    "builds": [{"src":"package.json", "use": "@now/next"}]
-}
+
