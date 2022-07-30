@@ -23,3 +23,7 @@
     "typewriter-effect": "^2.19.0"
   }
 }
+{
+    "version": 2,
+    "builds": [{"src":"package.json", "use": "@now/next"}]
+}
