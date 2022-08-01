@@ -129,6 +129,7 @@ const Mainsection = () => {
                             <div className="project-info">
                                 <p>Memmory Game:</p>
                                 <button><Link href="https://github.com/fanatII1/react-game"><a>View Code(Github):</a></Link></button>
+                                <button><Link href="https://react-memmory-game.herokuapp.com/"><a>View Project</a></Link></button>
                             </div>
                         </div>
                     </div>
