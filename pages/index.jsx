@@ -31,10 +31,10 @@ const Mainsection = () => {
         <main id="main-content">
             <nav>
                 <ul id='navigation'>
-                    <li className="nav-list-item"><Link href="#main-content"><a><FontAwesomeIcon icon={faHouse} style={{ color: "#ffa500;", height: "20px" }} /></a></Link></li>
-                    <li className="nav-list-item"><Link href="#about-section"><a><FontAwesomeIcon icon={faUser} style={{ color: "#ffa500;", height: "20px" }} /></a></Link></li>
-                    <li className="nav-list-item"><Link href="#projects-section"><a><FontAwesomeIcon icon={faWrench} style={{ color: "#ffa500;", height: "20px" }} /></a></Link></li>
-                    <li className="nav-list-item"><Link href="#contact-section"><a><FontAwesomeIcon icon={faAddressBook} style={{ color: "#ffa500;", height: "20px" }} /></a></Link></li>
+                    <li className="nav-list-item"><Link href="#main-content"><a><FontAwesomeIcon icon={faHouse} style={{ color: "#fff;", height: "20px" }} /></a></Link></li>
+                    <li className="nav-list-item"><Link href="#about-section"><a><FontAwesomeIcon icon={faUser} style={{ color: "#fff;", height: "20px" }} /></a></Link></li>
+                    <li className="nav-list-item"><Link href="#projects-section"><a><FontAwesomeIcon icon={faWrench} style={{ color: "#fff;", height: "20px" }} /></a></Link></li>
+                    <li className="nav-list-item"><Link href="#contact-section"><a><FontAwesomeIcon icon={faAddressBook} style={{ color: "#fff;", height: "20px" }} /></a></Link></li>
                 </ul>
             </nav>
             <section id="intro-section">
@@ -55,7 +55,7 @@ const Mainsection = () => {
                 <br />
                 <br />
                 <div id="image-show">
-                    <img src="/static/Mandla.jpg" alt="my-img" />
+                    <img src="/static/Mandla(3).jpg" alt="my-img" />
                 </div>
             </section>
 
@@ -73,7 +73,7 @@ const Mainsection = () => {
                     <div className="about-contents my-description">
                         <div className=" about icon"><FontAwesomeIcon icon={faUser} style={{ color: "purple", height: "27px" }} /></div>
                         <div className="about description">
-                            <p>Mandla is a young, profoundly passionate FullStack-Developer, who is always eager to learn and imporve, not just in the tech industry, but everything that influences and surrounds the industry</p>
+                            <p>Mandla is a young, profoundly passionate FullStack-Developer, who is always eager to learn and improve, not just in the tech industry, but everything that influences and surrounds the industry</p>
                             <p>Looking into a growing tech industry, more problems also arise, and coming up with solutions to solve these problems is of great significance to me.</p>
                         </div>
                     </div>
@@ -162,22 +162,25 @@ const Mainsection = () => {
                 
             nav{
                 position: fixed;
-                top: 50%;
-                left: 1%;
-                transform: translateY(-50%);
+                top: 90%;
+                left: 50%;
+                right: 50%;
+                width: 200px;
+                transform: translate(-50%, -50%);
                 background: #464646;
-                border: 2px solid #ffa500;;
+                border: 2px solid #fff;
                 border-radius: 10px;
                 padding: 1%;
                 z-index: 2;
             }    
 
             #navigation{
-                list-style-type: none
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
             }
 
             .nav-list-item{
-                margin-top: 35%;
                 text-align: center;
                 transition: .2s;
             }
@@ -265,6 +268,15 @@ const Mainsection = () => {
                     left: 50%;
                     transform: translate(-50%);
                 }
+
+                .projects{  
+                    display: grid;
+                    grid-template-columns: auto !important;
+                    grid-column-gap: 1%;
+                    max-width: 855px;
+                    margin: 0 auto;
+                    font-size: 1.3em;
+                }
             }
 
              
@@ -315,7 +327,7 @@ const Mainsection = () => {
                 position: absolute;
                 bottom: 100%;
                 width: 100%;
-                background: #ffa50087;
+                background: #28282894;
                 overflow: hidden;
                 border-radius: 25px;
                 transition: .4s;
@@ -392,7 +404,7 @@ const Mainsection = () => {
             html,body{
                 height: 100%;
                 scroll-behavior: smooth;
-                background: linear-gradient(0deg,#b11e1e 0%,#ffb100 100%);
+                background: linear-gradient(0deg,#080808 0%,#646464 100%);
                 background-attachment: fixed;
             }
             
