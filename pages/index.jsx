@@ -99,47 +99,50 @@ const Mainsection = () => {
             <section id="projects-section">
                 <h2>Projects</h2>
                 <div className="projects">
-                    <div className="project-1 image">
-                        <img className="proj1-img" src="/static/E-Commerce.png" alt="my-img" />
-                        <div className="overlay">
-                            <div className="project-info">
-                                <p>E-Commerce website:</p>
-                                <button><Link href="https://github.com/fanatII1/Online-Store"><a>View Code(Github):</a></Link></button>
-                                <br />
-                                <button><Link href="https://github.com/fanatII1/Online-Store"><a>View Project</a></Link></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="project-2 image">
-                        <img className="proj2-img" src="/static/Content-Search.png" alt="my-img" />
+                <div className="project-1 image">
+                        <img className="proj1-img" src="/static/Content-Search.png" alt="my-img" />
                         <div className="overlay">
                             <div className="project-info">
                                 <p>Itunes-Content-Search-App:</p>
                                 <button><Link href="https://github.com/fanatII1/Itunes-Content-Search-App"><a>View Code(Github):</a></Link></button>
                                 <br />
-                                <button><Link href="https://react-memmory-game.herokuapp.com/"><a>View Project</a></Link></button>
+                                <button><Link href="https://itunes-content-search-app.herokuapp.com/"><a>Live Demo</a></Link></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="project-2 image">
+                        <img className="proj2-img" src="/static/E-Commerce.png" alt="my-img" />
+                        <div className="overlay">
+                            <div className="project-info">
+                                <p>E-Commerce website:</p>
+                                <button><Link href="https://github.com/fanatII1/Online-Store"><a>View Code(Github):</a></Link></button>
+                                <br />
+                                <button><Link href="https://github.com/fanatII1/Online-Store"><a>Live Demo</a></Link></button>
                             </div>
                         </div>
                     </div>
 
                     <div className="project-3 image">
-                        <img className="proj3-img" src="/static/Game.png" alt="my-img" />
+                        <img className="proj3-img" src="/static/real-estate.png" alt="my-img" />
                         <div className="overlay">
                             <div className="project-info">
-                                <p>Memmory Game:</p>
-                                <button><Link href="https://github.com/fanatII1/react-game"><a>View Code(Github):</a></Link></button>
-                                <button><Link href="https://react-memmory-game.herokuapp.com/"><a>View Project</a></Link></button>
+                                <p>Local Real Estate App:</p>
+                                <button><Link href="https://github.com/fanatII1/real-estate-web-app"><a>View Code(Github):</a></Link></button>
+                                <br />
+                                <button><Link href="https://local-real-estate-app.herokuapp.com/"><a>Live Demo</a></Link></button>
                             </div>
                         </div>
                     </div>
 
                     <div className="project-4 image">
-                        <img className="proj4-img" src="/static/Weather.png" alt="my-img" />
+                        <img className="proj4-img" src="/static/Game.png" alt="my-img" />
                         <div className="overlay">
                             <div className="project-info">
-                                <p>Weather-App:</p>
-                                <button><Link href="https://github.com/fanatII1/reac-weather-app"><a>View Code(Github):</a></Link></button>
+                                <p>Memmory Game:</p>
+                                <button><Link href="https://github.com/fanatII1/react-game"><a>View Code(Github):</a></Link></button>
+                                <br />
+                                <button><Link href="https://react-memmory-game.herokuapp.com/"><a>Live Demo</a></Link></button>
                             </div>
                         </div>
                     </div>
